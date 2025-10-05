@@ -7,10 +7,16 @@ generate env using
   python -m venv env
 ```
 
+start env using
+
+```bash
+    source env/bin/activate
+```
+
 then install using
 
 ```bash
-    pip install pip install -r ./requirements.txt
+    pip install -r ./requirements.txt
 ```
 
 add a urls.csv to with name, url these columns, see the example_urls.csv to check format.
