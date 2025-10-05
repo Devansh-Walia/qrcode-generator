@@ -1,11 +1,17 @@
 how it works:
 [optional] generate an env in the folder to contain python modules
 
-`bash
-    pip install pip install -r ./requirements.txt
-`
+generate env using
 
-to install dependencies
+```bash
+  python -m venv env
+```
+
+then install using
+
+```bash
+    pip install pip install -r ./requirements.txt
+```
 
 add a urls.csv to with name, url these columns, see the example_urls.csv to check format.
 
